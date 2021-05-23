@@ -1,6 +1,6 @@
 ```asm
 section .data                           
-    message db "There is nothing for you to see here yet. I will put something on later", 10, "Bye Bye :)", 10
+    message db "There is nothing for you to see here yet and I will put something on later", 10, "Bye Bye :)", 10
     message_length equ $ - message
 
 section .text
