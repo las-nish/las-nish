@@ -1,16 +1,22 @@
-### Hi there 👋
+```asm
+section .data                           
+    message db "There is nothing for you to see here yet. I will put something on later", 10, "Bye Bye :)", 10
+    message_length equ $ - message
 
-<!--
-**las-nish/las-nish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+section .text
+    global _start
 
-Here are some ideas to get you started:
+_start:
+    mov rax, 1
+    mov rdi, 1
+    mov rsi, message
+    mov rdx, message_length
+    syscall
+    
+    call    _exit
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+_exit:
+    mov rax, 60
+    mov rdi, 0
+    syscall
+```
