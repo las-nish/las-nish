@@ -1,3 +1,14 @@
+```js
+// lasan js
+//
+// 2024 Aug 20 @ 8:45:08 p.m.
+
+<p>{{ print `Hello World` }}</p>
+```
+
+<details>
+    <summary>Old README</summary>
+
 ```asm
 ; I will modify this content after I create and publish my own programming language
 
@@ -19,3 +30,7 @@ _start:
     mov rdi, 0
     syscall
 ```
+
+</details>
+
+
