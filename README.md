@@ -1,9 +1,7 @@
-```js
-// lasan js
-//
-// 2024 Aug 20 @ 8:45:08 p.m.
+**Lasan JS** <sub>*2024 Aug 20 @ 8:45:08 p.m.*</sub>
 
-<p>{{ print `Hello World` }}</p>
+```html
+<p>{{ print `Hey 😽 It's my GitHub` }}</p>
 ```
 
 <details>
