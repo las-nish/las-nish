@@ -1,12 +1,3 @@
-**LasanJS** <sub>*2024 Aug 20 @ 8:45:08 p.m.*</sub>
-
-```html
-<p>{{ print `Hey 😽 It's my GitHub`; }}</p>
-```
-
-<details>
-    <summary>Old README</summary>
-
 ```asm
 ; I will modify this content after I create and publish my own programming language
 
@@ -28,5 +19,3 @@ _start:
     mov rdi, 0
     syscall
 ```
-
-</details>
