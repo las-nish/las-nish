@@ -1,1 +1,1 @@
-<code>Plans are of little importance, but planning is essential. – Winston Churchill</code>
+Plans are of little importance, but planning is essential. – Winston Churchill
