@@ -1,3 +1,1 @@
-```
 If you ain’t about performance, security, and privacy, this spot ain’t for you.
-```
